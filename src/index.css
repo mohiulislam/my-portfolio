@@ -1,0 +1,38 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+  *::-webkit-scrollbar {
+    @apply w-2;
+  }
+  *::-webkit-scrollbar-thumb {
+    @apply bg-[#495670] rounded;
+  }
+  *::-webkit-scrollbar-track {
+    @apply bg-base_color;
+  }
+}
+html body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+html body code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+html body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+html body code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+} */
