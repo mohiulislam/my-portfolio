@@ -1,7 +1,6 @@
 import React from "react";
 import Avater from "./Avater";
 import { StyledAboutMe } from "./StyledComponent/StyledAboutMe";
-import { StyledAvater } from "./StyledComponent/StyledAvater";
 class AboutMe extends React.Component {
   render() {
     return (

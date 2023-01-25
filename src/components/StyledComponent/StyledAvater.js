@@ -9,7 +9,6 @@ export const StyledAvater = styled.picture`
   margin: 140px 0 0 4vw;
   @media ${device.tablet} {
     margin: 70px auto;
-    
   }
   & img {
     height: 100%;
@@ -31,13 +30,13 @@ export const StyledAvater = styled.picture`
     border: 2px solid var(--green);
     position: absolute;
     display: block;
-    top: 20px;
-    left: 20px;
+    top: 8%;
+    left: 8%;
     transition: all 0.25s;
   }
 
   &:hover::after {
-    top: 10px;
-    left: 10px;
+    top: 5%;
+    left: 5%;
   }
 `;
