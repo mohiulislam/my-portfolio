@@ -12,6 +12,7 @@ export const StyledWorkDescription = styled.div`
   h3 {
     margin: 0;
     color: var(--white);
+    font-size: 2.5vw;
     span {
       color: var(--green);
     }
