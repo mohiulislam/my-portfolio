@@ -8,11 +8,11 @@ to{
 }
 `;
 export const StyledWorkDescription = styled.div`
-  animation: ${fade_in} .15s;
+  animation: ${fade_in} 0.15s;
   h3 {
     margin: 0;
     color: var(--white);
-    font-size: 2.5vw;
+    font-size: clamp(20px, 3vw, 30px);
     span {
       color: var(--green);
     }

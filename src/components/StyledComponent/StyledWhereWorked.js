@@ -7,7 +7,7 @@ export const StyledWhereWorked = styled.div`
   & > h1 {
     color: var(--white);
     font-family: roboto;
-    font-size: clamp(0px, 4vw, 32px);
+    font-size: clamp(0px, 5vw, 42px);
     display: inline-block;
     position: relative;
     & span {
