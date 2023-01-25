@@ -11,6 +11,7 @@ export const StyledWorkDescription = styled.div`
   animation: ${fade_in} .15s;
   h3 {
     margin: 0;
+    color: var(--white);
     span {
       color: var(--green);
     }
