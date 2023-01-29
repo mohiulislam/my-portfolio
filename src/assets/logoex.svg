@@ -1,0 +1,13 @@
+<svg cache-id="c3ccd06396574627a907240e05973698" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+<polygon id="logo-u-logo-s-polygon1" points="0,-67.557994 58.506939,-33.778997 58.506939,33.778997 0,67.557994 -58.506939,33.778997 -58.506939,-33.778997 0,-67.557994" transform="matrix(1.74563 0 0 1.70011 150 150)" fill="#0a192f" stroke="#64ffda" stroke-width="6"/>
+
+<text id="logo-s-text1" dx="0" dy="0" font-family="&quot;logo:::Roboto&quot;" font-size="111" font-weight="400" transform="translate(101.547436 188.900978)" fill="#64ffda" stroke-width="0">
+<tspan id="logo-s-tspan1" y="0" font-weight="400" stroke-width="0"><![CDATA[
+M
+]]>
+</tspan>
+</text>
+<style><![CDATA[
+@font-face {font-family: 'logo:::Roboto';font-style: normal;font-weight: 400;src: url(https://fonts.gstatic.com/l/font?kit=KFOmCnqEu92Fr1Me5X5OTg&skey=a0a0114a1dcab3ac&v=v30) format('truetype');}
+]]></style>
+</svg>

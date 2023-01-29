@@ -17,9 +17,7 @@ function WhereWorked() {
 
   return (
     <StyledWhereWorked BtnIndex={BtnIndex}>
-      <h1>
-        <span>0.2</span> Where I’ve Worked
-      </h1>
+      <h1>Where I’ve Worked</h1>
       <div>
         <div ref={ref}>
           <button

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledIntro = styled.div`
   margin: 12vw auto;
-  max-width: 75vw;
+  max-width: 1000px;
   & h6 {
     color: var(--green);
     font-family: monospace;

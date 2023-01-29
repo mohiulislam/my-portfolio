@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { device } from "../../assets/css/Variable";
 export const StyledLeftSideBar = styled.div`
   height: 100vh;
   width: 10vw;
@@ -7,6 +7,9 @@ export const StyledLeftSideBar = styled.div`
   position: fixed;
   left: 0;
   top: 0;
+  @media ${device.tablet} {
+    display: none;
+  }
   & div {
     width: 100%;
     display: flex;

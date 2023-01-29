@@ -9,6 +9,7 @@ import WhereWorked from "./components/WhereWorked";
 import { StyledContent } from "./components/StyledComponent/StyledContent";
 import LeftSidebar from "./components/LeftSidebar";
 import RightSidebar from "./components/RightSidebar";
+import Work from "./components/Work";
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
         <WhereWorked />
         <LeftSidebar />
         <RightSidebar />
+        <Work/>
       </StyledContent>
     </div>
   );

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../assets/css/Variable";
 
 export const StyledRightSideBar = styled.div`
   height: 100vh;
@@ -6,6 +7,9 @@ export const StyledRightSideBar = styled.div`
   position: fixed;
   right: 0;
   top: 0;
+  @media ${device.tablet} {
+    display: none;
+  }
   div {
     position: absolute;
     bottom: 20vh;

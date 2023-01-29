@@ -1,32 +1,44 @@
 import styled from "styled-components";
 import { device } from "../../assets/css/Variable";
-export const StyledAboutMe = styled.section`
+export const StyledAboutMe = styled.div`
   display: grid;
   margin: auto;
   grid-template-columns: 2fr 1fr;
-  max-width: 75vw;
+  width: clamp(0px, 80vw, 900px);
   @media ${device.tablet} {
     grid-template-columns: 1fr;
+    width: 100%;
   }
-
-  & div h1 {
-    color: var(--white);
-    font-size: clamp(0px, 5vw, 42px);
-    display: inline-block;
-    position: relative;
-    & span {
+  h1 {
+    width: 100%;
+    font-size:clamp(26px,5vw,32px) ;
+    ::before {
+      content: "01.";
+      position: relative;
+      margin-right: 10px;
       color: var(--green);
       font-family: monospace;
+      font-size: clamp(12px, 3vw, 16px);
     }
-    &::after {
+    ::after {
       content: "";
-      width: 100px;
+      display: block;
       height: 1px;
-      background-color: var(--slate);
-      position: absolute;
-      top: 50%;
-      left: 105%;
+      width: auto;
+      flex-grow: 1;
+      margin-left: 20px;
+      background-color: var(--lightest-navy);
+      right: 0;
     }
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px, 5vw, 32px);
+    white-space: nowrap;
+    color: var(--lightest-slate);
+    line-height: 1.1;
   }
   & div p {
     font-family: roboto;
