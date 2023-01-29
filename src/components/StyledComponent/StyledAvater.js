@@ -7,6 +7,7 @@ export const StyledAvater = styled.picture`
   aspect-ratio: 1;
   position: relative;
   margin: 140px 0 0 4vw;
+  background-color: var(--green);
   @media ${device.tablet} {
     margin: 70px auto;
   }
@@ -17,10 +18,12 @@ export const StyledAvater = styled.picture`
     border-radius: 3px;
     position: absolute;
     z-index: 10;
-    filter: grayscale(100%);
+    filter:  grayscale(100%) contrast(1);
+    mix-blend-mode: multiply;
     transition: all 0.25s;
     &:hover {
-      filter: unset;
+      filter: none;
+      mix-blend-mode: normal;
     }
   }
   &::after {
