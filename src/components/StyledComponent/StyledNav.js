@@ -22,11 +22,11 @@ export const StyledNav = styled.nav`
   justify-content: space-between;
   height: clamp(90px, 15vw, 100px);
   align-items: center;
-  background-color: rgba(var(--dark-navy), 0.75);
+  background-color: rgba(10, 25, 47, 0.85);
   position: sticky;
   top: 0;
   color: var(--white);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(5px);
   z-index: 100;
   padding: 0 25px;
 `;
