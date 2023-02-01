@@ -66,6 +66,7 @@ export const StyledProject1 = styled.div`
         @media (${device.tablet}) {
           margin: 0;
           margin-right: 10px;
+          font-size: 12px;
         }
         margin-left: 10px;
       }

@@ -15,9 +15,11 @@ export const StyledFootter = styled.footer`
   }
   div {
     text-align: center;
+    p:nth-child(1) {
+      font-size: 14px;
+    }
     p:nth-child(2) {
-      display: block;
-      font-size: 13px;
+      font-size: 12px;
     }
     a {
       text-decoration: none;
