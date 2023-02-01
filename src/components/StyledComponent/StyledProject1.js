@@ -59,7 +59,7 @@ export const StyledProject1 = styled.div`
       color: var(--slate);
       list-style-type: none;
       display: flex;
-      font-family: monospace;
+      font-family: "Fira Code", monospace;
       padding: 0;
       justify-content: right;
       li {
@@ -84,7 +84,7 @@ export const StyledProject1 = styled.div`
     }
     span {
       color: var(--green);
-      font-family: monospace;
+      font-family: "Fira Code", monospace;
       font-size: 15px;
       margin-bottom: 5px;
       display: block;
