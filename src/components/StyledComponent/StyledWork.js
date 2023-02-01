@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledWork = styled.div`
+  margin: 15vw auto;
+  max-width: 1000px;
   h1 {
     display: flex;
     align-items: center;
@@ -14,7 +16,7 @@ export const StyledWork = styled.div`
     width: 100%;
     font-size: clamp(26px, 5vw, 32px);
     ::before {
-      content: "01.";
+      content: "03.";
       position: relative;
       margin-right: 10px;
       color: var(--green);

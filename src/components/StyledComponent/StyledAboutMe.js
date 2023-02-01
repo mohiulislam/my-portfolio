@@ -11,7 +11,7 @@ export const StyledAboutMe = styled.div`
   }
   h1 {
     width: 100%;
-    font-size:clamp(26px,5vw,32px) ;
+    font-size: clamp(26px, 5vw, 32px);
     ::before {
       content: "01.";
       position: relative;

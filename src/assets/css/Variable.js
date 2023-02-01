@@ -2,20 +2,20 @@ import { css } from "styled-components";
 
 export const variables = css`
   :root {
-    --dark-navy: #020c1b;
-    --navy: #0a192f;
-    --light-navy: #112240;
-    --lightest-navy: #233554;
+    --dark-navy: rgb(2, 12, 27);
+    --navy: rgb(10, 25, 47);
+    --light-navy: rgb(17, 34, 64);
+    --lightest-navy: rgb(35, 53, 84);
     --navy-shadow: rgba(2, 12, 27, 0.7);
-    --dark-slate: #495670;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
-    --white: #e6f1ff;
-    --green: #64ffda;
+    --dark-slate: rgb(73, 86, 112);
+    --slate: rgb(136, 146, 176);
+    --light-slate: rgb(168, 178, 209);
+    --lightest-slate: rgb(204, 214, 246);
+    --white: rgb(230, 241, 255);
+    --green: rgb(100, 255, 218);
     --green-tint: rgba(100, 255, 218, 0.1);
-    --pink: #f57dff;
-    --blue: #57cbff;
+    --pink: rgb(245, 125, 255);
+    --blue: rgb(87, 203, 255);
   }
 `;
 const size = {
