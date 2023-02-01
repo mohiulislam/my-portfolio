@@ -15,6 +15,12 @@ function Footter() {
         <IconLinkedin />
         <IconCodepen />
       </div>
+      <div>
+        Designed inspired from{" "}
+        <a target="_blank" href="https://brittanychiang.com/">
+          Brittany Chiang
+        </a>
+      </div>
     </StyledFootter>
   );
 }

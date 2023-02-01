@@ -20,7 +20,7 @@ export const StyledLogo = styled.div`
 export const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
-  height: clamp(0px, 15vw, 100px);
+  height: clamp(90px, 15vw, 100px);
   align-items: center;
   background-color: rgba(var(--dark-navy), 0.75);
   position: sticky;
