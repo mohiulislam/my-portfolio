@@ -11,6 +11,12 @@ export const StyledFootter = styled.footer`
     svg {
       margin: 15px;
       width: 20px;
+      transition: all .25s;
+      cursor: pointer;
+      :hover{
+    color: var(--green);
+    transform: translateY(-5px);
+    }
     }
   }
   div {

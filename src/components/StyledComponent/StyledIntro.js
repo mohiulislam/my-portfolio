@@ -6,7 +6,7 @@ export const StyledIntro = styled.div`
   & h6 {
     color: var(--green);
     font-family: "Fira Code", monospace;
-    font-size: clamp(14px, 2.5vw, 20px);
+    font-size: clamp(14px, 2vw, 20px);
   }
   & h1 {
     color: var(--white);
