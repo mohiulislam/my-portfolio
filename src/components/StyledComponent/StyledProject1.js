@@ -8,11 +8,9 @@ export const StyledProject1 = styled.div`
     align-content: center;
     background-image: url(${require("../../assets/image/code-in-lpatop.jpeg")});
     background-size: cover;
-    @media (max-width: 1080px) {
-      grid-column: 1/9;
-    }
     @media (${device.tablet}) {
       background-color: transparent;
+      grid-column: 1/-1;
     }
     grid-column: 1/8;
     grid-row: 1/-1;
