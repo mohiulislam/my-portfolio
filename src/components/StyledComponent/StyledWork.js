@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledWork = styled.div`
   padding: 15vw 0;
   max-width: 1000px;
+  margin: auto;
   h1 {
     display: flex;
     align-items: center;

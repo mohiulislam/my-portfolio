@@ -10,6 +10,7 @@ import { StyledContent } from "./components/StyledComponent/StyledContent";
 import LeftSidebar from "./components/LeftSidebar";
 import RightSidebar from "./components/RightSidebar";
 import Work from "./components/Work";
+import Footter from "./components/Footter";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         <RightSidebar />
         <Work/>
       </StyledContent>
+      <Footter/>
     </div>
   );
 }
