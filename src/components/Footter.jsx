@@ -18,7 +18,7 @@ function Footter() {
       <div>
         <p>Created By Mohiul Islam.</p>
         <p>
-          Designed inspired from 
+          Designe inspired from 
           <a target="_blank" href="https://brittanychiang.com/">
             &nbsp;Brittany Chiang.
           </a>
