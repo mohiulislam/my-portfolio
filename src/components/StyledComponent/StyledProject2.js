@@ -49,6 +49,7 @@ export const StyledProject2 = styled.div`
       }
     }
     ul {
+      flex-wrap: wrap;
       color: var(--slate);
       list-style-type: none;
       display: flex;

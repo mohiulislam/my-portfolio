@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledWork = styled.div`
-  margin: 15vw auto;
+  padding: 15vw 0;
   max-width: 1000px;
   h1 {
     display: flex;

@@ -57,6 +57,7 @@ export const StyledProject1 = styled.div`
       @media (${device.tablet}) {
         justify-content: left;
       }
+      flex-wrap: wrap;
       color: var(--slate);
       list-style-type: none;
       display: flex;
