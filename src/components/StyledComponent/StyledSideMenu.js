@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { device } from "../../assets/css/Variable";
 export const StyledSideMenu = styled.div`
+  box-sizing: border-box;
+  padding-bottom: 15vh;
   height: 100vh;
   width: 0;
   @media ${device.tablet} {
@@ -24,7 +26,7 @@ export const StyledSideMenu = styled.div`
     margin-top: 40px;
   }
   & a {
-    margin: 2vw;
+    margin: 3vw;
   }
   & span {
     color: var(--green);
