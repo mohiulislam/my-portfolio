@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import useMenu from "../ren/useMenu";
 import { Context } from "../context/SideMenuContext";
 import { StyledSideMenu } from "./StyledComponent/StyledSideMenu";
-// import { StyledButton } from "./StyledComponent/StyledButton";
 import Button from "./Button";
 function SideMenu() {
   const { IsOpen } = useContext(Context);
