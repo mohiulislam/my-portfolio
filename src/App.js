@@ -26,8 +26,9 @@ function App() {
           <RightSidebar />
           <Work />
           <Contact/>
+          <Footter />
         </StyledContent>
-      <Footter />
+      
     </div>
   );
 }
