@@ -22,8 +22,9 @@ function Footter() {
         <p>
           Designe inspired from
           <a target="_blank" href="https://brittanychiang.com/">
-            &nbsp;Brittany Chiang.
+            &nbsp;Brittany Chiang
           </a>
+          .
         </p>
       </div>
     </StyledFootter>
