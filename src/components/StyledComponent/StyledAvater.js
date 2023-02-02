@@ -4,7 +4,7 @@ export const StyledAvater = styled.picture`
   border-radius: 3px;
   margin: auto;
   display: block;
-  width: clamp(250px, 30vw, 300px);
+  width: clamp(200px, 30vw, 300px);
   aspect-ratio: 1;
   position: relative;
   margin: 140px 0 0 4vw;
