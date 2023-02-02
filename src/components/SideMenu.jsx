@@ -9,7 +9,7 @@ function SideMenu() {
   return (
     <StyledSideMenu IsOpen={IsOpen}>
       {items}
-      <Button padding="20px 50px">Resume</Button>
+      <Button padding="5% 10%">Resume</Button>
     </StyledSideMenu>
   );
 }

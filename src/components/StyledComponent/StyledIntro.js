@@ -24,4 +24,7 @@ export const StyledIntro = styled.div`
     font-family: roboto;
     line-height: 1.7;
   }
+  button{
+  margin-top: 5%;
+  }
 `;
