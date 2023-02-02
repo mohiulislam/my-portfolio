@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { device } from "../../assets/css/Variable";
 export const StyledAvater = styled.picture`
+  border-radius: 3px;
   margin: auto;
   display: block;
   width: clamp(0px, 30vw, 300px);
@@ -15,10 +16,10 @@ export const StyledAvater = styled.picture`
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 3px;
+
     position: absolute;
     z-index: 10;
-    filter:  grayscale(100%) contrast(1);
+    filter: grayscale(100%) contrast(1);
     mix-blend-mode: multiply;
     transition: all 0.25s;
     &:hover {
