@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { device } from "../../assets/css/Variable";
 
 export const StyledContent = styled.div`
+  scroll-behavior: smooth;
   user-select: none;
   color: var(--white);
   font-family: roboto;

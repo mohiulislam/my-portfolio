@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledIntro = styled.div`
-  margin: 12vw auto;
   max-width: 1000px;
   & h6 {
     color: var(--green);

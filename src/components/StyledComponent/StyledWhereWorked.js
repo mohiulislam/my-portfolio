@@ -3,7 +3,7 @@ import { device } from "../../assets/css/Variable";
 export const StyledWhereWorked = styled.div`
   width: clamp(0px, 70vw, 800px);
   margin: auto;
-  margin-top: 10vw;
+  padding-top: clamp(90px, 15vw, 100px);
   @media ${device.tablet} {
     width: 100%;
   }

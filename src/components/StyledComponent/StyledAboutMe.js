@@ -3,6 +3,7 @@ import { device } from "../../assets/css/Variable";
 export const StyledAboutMe = styled.div`
   display: grid;
   margin: auto;
+  padding-top: clamp(90px, 15vw, 100px);
   grid-template-columns: 2fr 1fr;
   width: clamp(0px, 80vw, 900px);
   @media ${device.tablet} {

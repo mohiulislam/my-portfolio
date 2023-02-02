@@ -38,7 +38,7 @@ export const StyledSideMenu = styled.div`
   & button {
     margin-top: 40px;
   }
-  & li {
+  & a {
     margin: 25px;
   }
   & span {

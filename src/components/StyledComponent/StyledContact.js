@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledContact = styled.div`
+  padding-top: clamp(90px, 15vw, 100px);
   h5 {
     font-weight: 400;
     color: var(--green);

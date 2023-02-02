@@ -1,20 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import { navItems } from "../data/navData";
 import styled from "styled-components";
-const StyledLi = styled.li`
-  &:hover {
+const Styleda = styled.a`
+  color: var(--slate);
+  text-decoration: none;
+  :hover {
     color: var(--green);
   }
 `;
 function WithMenu() {
   let items = navItems.map((item, index) => {
+    console.log(index);
     return (
-      <StyledLi key={Math.random()}>
+      <Styleda href={"#" + (index + 1)} key={Math.random()}>
         <span style={{ fontFamily: "'Fira Code', monospace" }}>
           0{index + 1}.
         </span>
         {item}
-      </StyledLi>
+      </Styleda>
     );
   });
   return items;

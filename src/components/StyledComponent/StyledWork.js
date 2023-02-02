@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledWork = styled.div`
-  padding: 15vw 0;
+  padding-top: clamp(90px, 15vw, 100px);
   max-width: 1000px;
   margin: auto;
   h1 {

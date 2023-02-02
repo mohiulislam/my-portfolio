@@ -16,7 +16,7 @@ function WhereWorked() {
   const [Company, setCompany] = useState("Upstatement");
 
   return (
-    <StyledWhereWorked BtnIndex={BtnIndex}>
+    <StyledWhereWorked id="2" BtnIndex={BtnIndex}>
       <h1>Where I’ve Worked</h1>
       <div>
         <div ref={ref}>
