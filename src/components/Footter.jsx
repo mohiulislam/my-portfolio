@@ -16,9 +16,11 @@ function Footter() {
         <IconCodepen />
       </div>
       <div>
-        <p>Created By Mohiul Islam.</p>
         <p>
-          Designe inspired from 
+          Created By <span>Mohiul Islam</span>.
+        </p>
+        <p>
+          Designe inspired from
           <a target="_blank" href="https://brittanychiang.com/">
             &nbsp;Brittany Chiang.
           </a>

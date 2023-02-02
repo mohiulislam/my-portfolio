@@ -23,6 +23,9 @@ export const StyledFootter = styled.footer`
     text-align: center;
     p:nth-child(1) {
       font-size: 14px;
+      span{
+      color: var(--green);
+      }
     }
     p:nth-child(2) {
       font-size: 12px;
