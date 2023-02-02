@@ -15,7 +15,7 @@ function Intro() {
         building accessible, human-centered products at Upstatement.
       </p>
       <div>
-        <Button padding="3% 4%">Cheque Out My Resume</Button>
+        <Button padding="clamp(0px,6%,25px)">Cheque Out My Resume</Button>
       </div>
     </StyledIntro>
   );
