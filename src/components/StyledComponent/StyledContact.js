@@ -9,7 +9,7 @@ export const StyledContact = styled.div`
     margin: 0;
   }
   h2 {
-    font-size: clamp(20px, 5vw, 60px);
+    font-size: clamp(25px, 5vw, 60px);
     text-align: center;
     margin-top: 20px;
   }
