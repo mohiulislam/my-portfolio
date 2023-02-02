@@ -6,6 +6,7 @@ html{
 scroll-behavior: smooth;
 }
 body{
+overflow: ${({ IsOpen }) => (IsOpen ? "hidden" : "visible")};
 margin: 0;
 padding: 0;
 box-sizing: border-box;

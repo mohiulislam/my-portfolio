@@ -16,19 +16,18 @@ function App() {
   const { IsOpen } = useContext(Context);
   return (
     <div className="App">
-      <GlobalStyle />
-        <Nav />
-        <StyledContent IsOpen={IsOpen}>
-          <Intro />
-          <AboutMe />
-          <WhereWorked />
-          <LeftSidebar />
-          <RightSidebar />
-          <Work />
-          <Contact/>
-          <Footter />
-        </StyledContent>
-      
+      <GlobalStyle IsOpen={IsOpen} />
+      <Nav />
+      <StyledContent IsOpen={IsOpen}>
+        <Intro />
+        <AboutMe />
+        <WhereWorked />
+        <LeftSidebar />
+        <RightSidebar />
+        <Work />
+        <Contact />
+        <Footter />
+      </StyledContent>
     </div>
   );
 }

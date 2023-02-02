@@ -8,8 +8,8 @@ function Logo() {
         id="logo"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 300 300"
-        shape-rendering="geometricPrecision"
-        text-rendering="geometricPrecision"
+        shapeRendering="geometricPrecision"
+        textRendering="geometricPrecision"
       >
         <polygon
           id="logo-u-logo-s-polygon1"
@@ -17,7 +17,7 @@ function Logo() {
           transform="matrix(2.15 0 0 2.1 150 150)"
           fill="#0a192f"
           stroke="#64ffda"
-          stroke-width="6"
+          strokeWidth="6"
         />
       </svg>
 
