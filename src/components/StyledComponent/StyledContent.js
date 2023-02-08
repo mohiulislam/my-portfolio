@@ -8,7 +8,9 @@ export const StyledContent = styled.div`
   font-family: roboto;
   pointer-events: ${({ IsOpen }) => (IsOpen ? "none" : "auto")};
   padding: 0 clamp(0px, 10vw, 200px);
-  filter: ${({ IsOpen }) => (IsOpen ? "blur(5px) brightness(0.7)" : "none")};
+  @media ${device.tablet} {
+    filter: ${({ IsOpen }) => (IsOpen ? "blur(5px) brightness(0.7)" : "none")};
+  }
   @media ${device.tablet} {
     padding: 0px 5vw;
   }

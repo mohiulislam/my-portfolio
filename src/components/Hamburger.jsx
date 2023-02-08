@@ -5,7 +5,7 @@ import { Context } from "../context/SideMenuContext";
 export default function Hamburger() {
   const { IsOpen, setIsOpen } = useContext(Context);
   return (
-    <HambWrapper>
+    <HambWrapper IsOpen={IsOpen}>
       <Sling
         toggled={IsOpen}
         toggle={setIsOpen}

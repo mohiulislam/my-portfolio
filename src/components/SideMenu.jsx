@@ -1,13 +1,20 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef } from "react";
 import useMenu from "../ren/useMenu";
 import { Context } from "../context/SideMenuContext";
 import { StyledSideMenu } from "./StyledComponent/StyledSideMenu";
 import Button from "./Button";
+import useOnClickOutside from "../Hooks/useOnClickOutside";
+import Hamburger from "./Hamburger";
 function SideMenu() {
-  const { IsOpen } = useContext(Context);
+  const { IsOpen, setIsOpen } = useContext(Context);
+  const wrapperref = useRef();
   const items = useMenu();
+  useOnClickOutside(wrapperref, () => {
+    setIsOpen(false);
+  });
   return (
-    <StyledSideMenu IsOpen={IsOpen}>
+    <StyledSideMenu ref={wrapperref} IsOpen={IsOpen}>
+      <Hamburger />
       {items}
       <Button padding="5% 10%">Resume</Button>
     </StyledSideMenu>
