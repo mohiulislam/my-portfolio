@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { device } from "../../assets/css/Variable";
-
 export const StyledProjectCollection = styled.div`
   h2 {
     text-align: center;
@@ -10,9 +8,10 @@ export const StyledProjectCollection = styled.div`
     text-align: center;
     color: var(--green);
     font-weight: 100;
+    margin: 0;
   }
   > div {
-    margin-top: 50px;
+    margin-top: 5vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
