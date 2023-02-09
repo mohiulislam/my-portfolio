@@ -5,7 +5,7 @@ export const StyledContact = styled.div`
   h5 {
     font-weight: 400;
     color: var(--green);
-    font-family: "fira code", monospace;
+    font-family: var(--font-mono);
     text-align: center;
     margin: 0;
   }
@@ -23,6 +23,6 @@ export const StyledContact = styled.div`
   button {
     display: block;
     margin: 40px auto;
-    font-family: "fira code", monospace;
+    font-family: var(--font-mono);
   }
 `;

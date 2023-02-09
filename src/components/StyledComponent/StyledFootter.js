@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFootter = styled.footer`
-  font-family: "Fira Code", monospace;
+  font-family: var(--font-mono);
   padding-bottom: 2vw;
   color: var(--slate);
   div:nth-child(1) {
@@ -11,20 +11,20 @@ export const StyledFootter = styled.footer`
     svg {
       margin: 15px;
       width: 20px;
-      transition: all .25s;
+      transition: all 0.25s;
       cursor: pointer;
-      :hover{
-    color: var(--green);
-    transform: translateY(-5px);
-    }
+      :hover {
+        color: var(--green);
+        transform: translateY(-5px);
+      }
     }
   }
   div {
     text-align: center;
     p:nth-child(1) {
       font-size: 14px;
-      span{
-      color: var(--green);
+      span {
+        color: var(--green);
       }
     }
     p:nth-child(2) {

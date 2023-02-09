@@ -14,12 +14,17 @@ box-sizing: border-box;
      padding: 0 clamp(0px,8%,200px);
   }
 }
- &::-webkit-scrollbar {
+::-webkit-scrollbar {
         width: 10px;
         background-color: var(--navy);
       }
-      ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
         background-color: var(--dark-slate);
         border-radius: 10px;
       }
+ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
 `;

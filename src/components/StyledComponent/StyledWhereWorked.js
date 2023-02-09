@@ -14,7 +14,7 @@ export const StyledWhereWorked = styled.div`
       position: relative;
       margin-right: 10px;
       color: var(--green);
-      font-family: "Fira Code", monospace;
+      font-family: var(--font-mono);
       font-size: clamp(12px, 3vw, 16px);
     }
     ::after {
@@ -73,7 +73,7 @@ export const StyledWhereWorked = styled.div`
         }
       }
       & button {
-        font-family: "Fira Code", monospace;
+        font-family: var(--font-mono);
         text-align: left;
         padding-left: 15px;
         color: var(--slate);

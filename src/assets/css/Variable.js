@@ -16,6 +16,7 @@ export const variables = css`
     --green-tint: rgba(100, 255, 218, 0.1);
     --pink: rgb(245, 125, 255);
     --blue: rgb(87, 203, 255);
+    --font-mono:"Fira Code", "Fira Mono", "Roboto Mono", monospace;
   }
 `;
 const size = {

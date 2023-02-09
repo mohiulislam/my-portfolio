@@ -18,7 +18,7 @@ export const StyledAboutMe = styled.div`
       position: relative;
       margin-right: 10px;
       color: var(--green);
-      font-family: "Fira Code", monospace;
+      font-family: var(--font-mono);
       font-size: clamp(12px, 3vw, 16px);
     }
     ::after {

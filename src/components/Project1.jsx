@@ -6,7 +6,6 @@ function Project() {
   return (
     <StyledProject1 img="../../assets/image/code-in-lpatop.jpeg">
       <div>
-
       </div>
       <div>
         <span>Featured Project</span>

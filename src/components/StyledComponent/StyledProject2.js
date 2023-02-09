@@ -53,11 +53,12 @@ export const StyledProject2 = styled.div`
       color: var(--slate);
       list-style-type: none;
       display: flex;
-      font-family: "Fira Code", monospace;
+      font-family: var(--font-mono);
       padding: 0;
       justify-content: right;
       display: flex;
       justify-content: left;
+      margin-bottom: 20px;
       li {
         margin-right: 10px;
         @media (${device.tablet}) {
@@ -81,7 +82,7 @@ export const StyledProject2 = styled.div`
     }
     span {
       color: var(--green);
-      font-family: "Fira Code", monospace;
+      font-family: var(--font-mono);
       font-size: 15px;
       margin-bottom: 5px;
       display: block;
