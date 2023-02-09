@@ -9,6 +9,7 @@ export const StyledProjectCollection = styled.div`
     font-family: var(--font-mono);
     text-align: center;
     color: var(--green);
+    font-weight: 100;
   }
   > div {
     margin-top: 50px;
@@ -22,5 +23,5 @@ export const StyledProjectCollection = styled.div`
       grid-template-columns: 1fr;
     }
   }
-  padding-top: 10vw;
+  padding-top: 18vw;
 `;
