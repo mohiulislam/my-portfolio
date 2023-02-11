@@ -2,6 +2,7 @@ import styled from "styled-components";
 export const StyledProjectCollection = styled.div`
 button{
 display: block;
+font-family:var(--font-mono);
 }
   h2 {
     text-align: center;
