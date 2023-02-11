@@ -19,7 +19,7 @@ export const StyledOtherProject = styled.a`
     display: flex;
     justify-content: space-between;
     svg {
-      width: clamp(0px, 5vw, 40px);
+      width: clamp(25px, 5vw, 40px);
       :first-child {
         color: var(--green);
       }
