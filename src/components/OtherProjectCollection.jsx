@@ -58,7 +58,7 @@ function OtherProjectCollection() {
         {Revealed ? (
           <Fragment>
             <OtherProject
-              heading="Blistabloc"
+              heading="Messenger Clone"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -76,7 +76,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="Google Keep Klone"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -85,7 +85,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="React Profile"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -94,7 +94,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="NU Women in Tech"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -103,7 +103,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="Fontipsums"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -112,7 +112,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="Figma CLone"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
@@ -121,7 +121,7 @@ function OtherProjectCollection() {
               ]}
             />
             <OtherProject
-              heading="Blistabloc"
+              heading="Gooogle"
               description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
               technology={[
                 <li>WordPress</li>,
