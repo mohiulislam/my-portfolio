@@ -4,7 +4,7 @@ import { StyledAboutMe } from "./StyledComponent/StyledAboutMe";
 class AboutMe extends React.Component {
   render() {
     return (
-      <StyledAboutMe id="1">
+      <StyledAboutMe id="about">
         <div>
           <h1>About Me</h1>
           <p>

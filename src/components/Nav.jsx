@@ -1,4 +1,4 @@
-import useMenu from "../ren/useMenu.js";
+import useMenu from "../Hooks/useMenu.js";
 import { StyledHorzMenu, StyledNav } from "./StyledComponent/StyledNav.js";
 import SideMenu from "./SideMenu.jsx";
 import Button from "./Button.jsx";

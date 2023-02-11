@@ -7,7 +7,7 @@ import { StyledWork } from "./StyledComponent/StyledWork";
 
 function Work() {
   return (
-    <StyledWork id="3">
+    <StyledWork id="work">
       <h1>Some Things I’ve Built</h1>
       <Project1 />
       <Project2 />

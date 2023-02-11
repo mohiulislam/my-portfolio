@@ -4,7 +4,7 @@ import { StyledContact } from "./StyledComponent/StyledContact";
 
 function Contact() {
   return (
-    <StyledContact id="4">
+    <StyledContact id="contact">
       <h5>04. What’s Next?</h5>
       <h2>Get In Touch</h2>
       <p>
