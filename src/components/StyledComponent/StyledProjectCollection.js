@@ -1,5 +1,8 @@
 import styled from "styled-components";
 export const StyledProjectCollection = styled.div`
+button{
+display: block;
+}
   h2 {
     text-align: center;
   }

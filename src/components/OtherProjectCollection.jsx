@@ -1,8 +1,10 @@
-import React from "react";
+import React, { Fragment } from "react";
 import OtherProject from "./OtherProject";
 import { StyledProjectCollection } from "./StyledComponent/StyledProjectCollection";
-
+import { useState } from "react";
+import Button from "./Button";
 function OtherProjectCollection() {
+  const [Revealed, setReveal] = useState(false);
   return (
     <StyledProjectCollection>
       <h2>Other Noteworthy Projects</h2>
@@ -44,56 +46,101 @@ function OtherProjectCollection() {
           ]}
         />
         <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
+          heading="Apple Music Facebook Messenger Integration"
+          description="Building a custom multisite compatible WordPress plugin to build global search with Algolia"
+          technology={[<li>Ember</li>, <li>JS</li>, <li>SCSS</li>]}
         />
         <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
+          heading="Apple Music Embeddable Web Player Widget"
+          description="Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging MusicKit. Read more about this project on 9to5Mac."
+          technology={[<li>MusicKit.js</li>, <li>JS</li>, <li>SCSS</li>]}
         />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
-        <OtherProject
-          heading=""
-          description=""
-          technology={[<li></li>, <li></li>, <li></li>]}
-        />
+        {Revealed ? (
+          <Fragment>
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+            <OtherProject
+              heading="Blistabloc"
+              description="Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming."
+              technology={[
+                <li>WordPress</li>,
+                <li>Timber</li>,
+                <li>WooCommerce</li>,
+              ]}
+            />
+          </Fragment>
+        ) : null}
       </div>
+      <Button
+        padding="20px"
+        handler={() => {
+          Revealed ? setReveal(false) : setReveal(true);
+        }}
+        margin="50px auto"
+      >
+        {Revealed ? "Show less" : "Show More"}
+      </Button>
     </StyledProjectCollection>
   );
 }
