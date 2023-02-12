@@ -5,8 +5,7 @@ function useOnClickOutside(ref, handler) {
       if (!ref.current || ref.current.contains(event.target)) {
         return;
       }
-      console.log(2555);
-      
+      handler();
     };
     document.addEventListener("mousedown", listener);
     document.addEventListener("touchstart", listener);
