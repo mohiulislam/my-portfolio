@@ -5,7 +5,7 @@ import { StyledIntro } from "./StyledComponent/StyledIntro.js";
 
 function Intro() {
   return (
-    <StyledIntro className=" my-32">
+    <StyledIntro>
       <h6>Hi, my name is</h6>
       <h1>{introData.name}</h1>
       <h1>I build things for the web.</h1>
