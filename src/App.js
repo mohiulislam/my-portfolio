@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useContext } from "react";
 import Nav from "./components/Nav";
 import Intro from "./components/Intro";
