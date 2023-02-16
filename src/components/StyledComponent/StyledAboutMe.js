@@ -4,7 +4,7 @@ export const StyledAboutMe = styled.div`
   display: grid;
   margin: auto;
   padding-top: clamp(90px, 15vw, 100px);
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 0.9fr;
   width: clamp(0px, 80vw, 900px);
   @media ${device.tablet} {
     grid-template-columns: 1fr;
@@ -54,6 +54,7 @@ export const StyledAboutMe = styled.div`
       margin: 0;
       padding: 0;
       & li {
+        font-family: var(--font-mono);
         list-style-type: none;
         margin: 10px 0;
         &::before {
