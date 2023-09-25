@@ -22,9 +22,20 @@ function WhereWorked() {
           color: "rgb(204,214,246)",
           fontSize: "15px",
           textAlign: "center",
+          lineHeight: "25px",
         }}
       >
-        Maximum below are just dummy text 😊
+        Maximum below are just dummy text 😊.
+        <br /> Please check my{" "}
+        <a
+          style={{ color: "yellow" }}
+          href="https://docs.google.com/document/d/18ztBMDbymVVk2AqkBL1u33Ch1e8e49j8OsstFgd_biU"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          resume
+        </a>{" "}
+        to see updated information.
       </h5>
       <h1>Where I’ve Worked</h1>
       <div>
