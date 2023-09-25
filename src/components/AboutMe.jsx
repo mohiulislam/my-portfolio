@@ -14,7 +14,24 @@ class AboutMe extends React.Component {
           <p>
             Currently working as front-end web developer and integral remote
             team member at a B2B air ticket selling platform web app,
-            specializing in the implementation of user panel and admin panel
+            specializing in the implementation of{" "}
+            <a
+              style={{ color: "yellow" }}
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://mastermindbd.com"
+            >
+              user panel
+            </a>{" "}
+            and{" "}
+            <a
+              style={{ color: "yellow" }}
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://admin.mastermindbd.com"
+            >
+              admin panel
+            </a>{" "}
             using React.That is a very huge project. Proficiently connecting
             back-end APIs and translating project requirements into innovative
             features.
