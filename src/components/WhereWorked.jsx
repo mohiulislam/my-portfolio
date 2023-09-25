@@ -17,6 +17,15 @@ function WhereWorked() {
 
   return (
     <StyledWhereWorked id="experience" BtnIndex={BtnIndex}>
+      <h5
+        style={{
+          color: "rgb(204,214,246)",
+          fontSize: "15px",
+          textAlign: "center",
+        }}
+      >
+        Maximum below are just dummy text 😊
+      </h5>
       <h1>Where I’ve Worked</h1>
       <div>
         <div ref={ref}>
